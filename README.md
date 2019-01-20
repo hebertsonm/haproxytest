@@ -4,9 +4,11 @@ This is about creating and testing HAproxy (v1.9). It sets up an evironment with
 
 ## Using the script
 
-The createHAproxy.sh script installs the whole tool set needed in this lab on a Centos 7.5. 
+The `createHAproxytest.sh` script installs the whole tool set needed in this lab on a Centos 7.5. 
 
-`./createHAproxy.sh`
+`./createHAproxy.sh`  or
+
+`curl -sS https://raw.githubusercontent.com/hebertsonm/haproxytest/master/createHAproxytest.sh | bash -`
 
 ## Manually
 
